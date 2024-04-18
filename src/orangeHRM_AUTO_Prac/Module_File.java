@@ -24,10 +24,10 @@ public class Module_File {
 		Thread.sleep(2000);
 
 		File scrFile = scrShot.getScreenshotAs(OutputType.FILE);
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		FileUtils.copyFile(scrFile, new File("C:\\Users\\Administrator\\OneDrive\\Pictures\\Screenshots\\Screenshot_1.png"));
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 	}
 	
 	void username_functionality() throws InterruptedException, IOException {	
